@@ -22,6 +22,7 @@ const SinglePost = () => {
             <br />
             <Title title={post.title} className="title-bg" />
             <div className="img py">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src={post.cover}
                 alt={post.title}
