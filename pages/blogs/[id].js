@@ -1,4 +1,3 @@
-/*
 import { blogdata } from "@/assets/data/dummydata";
 import Banner from "@/components/Banner";
 import { Title, TitleSm } from "@/components/common/Title";
@@ -13,6 +12,7 @@ const SinglePost = () => {
 
   return (
     <>
+      {/*
       <Head>
         <title>{post.title}</title>
       </Head>
@@ -94,9 +94,9 @@ const SinglePost = () => {
           </div>
         </div>
       </section>
+      */}
     </>
   );
 };
 
 export default SinglePost;
-*/
